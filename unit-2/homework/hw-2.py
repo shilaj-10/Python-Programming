@@ -1,3 +1,4 @@
+# shilaj's method
 a = 'full_time'
 b = 'part_time'
 c = 'contract'
@@ -21,3 +22,17 @@ elif worker_type == c:
     wage = hours_worked*120*0.75
     print('weekly wage = ',wage)
 
+# class method
+
+worker_type = 'part_time'
+hours_worked = 27
+
+weekly_wage=0
+
+if worker_type == 'full_time':
+    weekly_wage = (40*50) + ((hours_worked-40)*60)
+elif worker_type == 'part_time':
+    weekly_wage = (20*65) + (75*(hours_worked-20))
+else:
+    weekly_wage = hours_worked*120*0.75
+print(weekly_wage)

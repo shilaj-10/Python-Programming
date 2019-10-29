@@ -1,10 +1,10 @@
-sent = 'Python Programming at General Assembly is Awesome'
+#
+sent = 'Python Programming at General Assembly is Awesome!!'
 
-new_sent = list(sent)
+new_sent = ''
 
 for char in (sent):
-    if char == ' ' or char == 's' or char == 'm':
-        new_sent.pop(char)
-        sent = ''.join(new_sent)
-        print (sent)
+    if char != ' ' and char != 's' and char != 'm':
+        new_sent = new_sent + char
+print (new_sent)
 
