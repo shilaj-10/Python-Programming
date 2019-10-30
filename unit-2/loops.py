@@ -27,3 +27,13 @@ name = 'shilaj shah'
 for alphas in (name):
     if alphas == 'a' or alphas == 'e' or alphas == 'i' or alphas == 'o' or alphas == 'u':
         print (alphas)
+
+my_numbers = [3, 5, 17, 11, 21, 53, -10, -27, 45, 80]
+
+small = my_numbers[0]
+
+for num in my_numbers:
+    if num < small:
+        small = num
+print (small)
+
