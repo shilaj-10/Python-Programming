@@ -21,7 +21,7 @@ print (cohort_4)
 values = [2.3,45,11,-5,3.5,7.9,11.7,40,85.6,77.1]
 
 float_values = []
-
+# if we are trying to check for type, use is
 for x in values:
     if type (x) is float:
         float_values.append(x)
