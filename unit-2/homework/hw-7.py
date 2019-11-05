@@ -1,8 +1,12 @@
-phrases = ['hello', 'wassup', 'how are you', 'whats hapenning', 'sup']
 
-import random
+import random 
 
-idx = random.randint(0,4)
+name = input('enter your name (or e to end): ')
 
-display = 
+messages = ['hello', 'wassup', 'how are you', 'whats hapenning', 'go eat']
 
+
+while name != 'e':
+    pos = random.randint(0, len(messages)-1)
+    print (messages[pos])
+    name = input('enter your name (or e to end): ')
