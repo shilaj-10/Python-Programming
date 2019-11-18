@@ -22,11 +22,11 @@ def encode_string (letters):
 print (encode_string('abc'))
 
 
-#class method
+
 #problem 1
 def reverse_list(lists):
     return lists[::-1]
-​
+​#problem 2
 def encode_string(string):
     letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
     
@@ -37,7 +37,7 @@ def encode_string(string):
                 results += str(idx + 1)
     return results 
 ​
-​
+​#problem 3
 def pivot_split(my_list, my_num):
     left = []
     right = []
